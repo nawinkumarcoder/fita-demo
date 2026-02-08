@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "entered codebuild"
+      - python3 --version
+      - python3 demo.py
+      - ls -l
